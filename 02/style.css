@@ -1,0 +1,82 @@
+body {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 50px !important;
+  font-family: "Arial";
+}
+
+h1 {
+  font-size: 30px;
+}
+
+#kirmizi {
+  color: red;
+
+  font-size: 24px;
+  font-family: "Arial";
+  font-weight: 700;
+  font-style: italic;
+
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+
+  letter-spacing: 10px;
+}
+
+.yazi {
+  font-size: 20px;
+  font-family: "Comic Sans MS";
+  color: green;
+}
+.kutu {
+  width: 200px;
+  height: 200px;
+
+  background-color: red;
+  border: 10px dashed black;
+  /* border-width: 10px;
+  border-style: dashed;
+  border-color: black; */
+}
+
+.resimlikutu {
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  background-image: url("resim.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.ustucizili {
+  text-decoration: line-through;
+}
+
+.bolum {
+  display: block;
+  background-color: red;
+}
+
+.EMdiv {
+  width: 50em;
+  height: 200px;
+  background-color: red;
+}
+
+.farklidiv {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+
+input[type="text"] {
+  background-color: yellow;
+}
+
+[data-bilmemne="asd"] {
+  background-color: green !important;
+}

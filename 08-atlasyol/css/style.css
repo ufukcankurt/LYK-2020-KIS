@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tahoma";
+  font-size: 16px;
+  background-image: url("../img/body.png");
+  background-repeat: repeat-x;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.site {
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  float: left;
+  margin-top: 80px;
+}
+
+.sag {
+  margin-top: 95px;
+  float: right;
+}
+
+.sag p {
+  float: right;
+  font-size: 11px;
+}
+
+.languages {
+  float: right;
+  margin-top: 20px;
+}
+
+.menu {
+  margin-top: 30px;
+  border: 1px solid gray;
+}
+
+.menu li {
+  float: left;
+  padding: 10px;
+  border-left: 1px solid gray;
+}
+
+.menu li:first-child {
+  border-left: 0;
+}
+
+.menu li a {
+  font-size: 14px;
+  color: black;
+}
+
+.orta {
+  margin-top: 20px;
+}
+
+.banner {
+  border: 1px solid gray;
+}
+
+.aciklama {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.items {
+  margin-top: 20px;
+}
+
+.items li {
+  width: 300px;
+  float: left;
+  margin-left: 20px;
+}
+
+.items li:first-child {
+  margin-left: 0;
+}
+
+.items li .baslik {
+  font-weight: 700;
+}
+
+.items li p {
+  font-size: 13px;
+  margin-top: 10px;
+  line-height: 18px;
+}
